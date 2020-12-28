@@ -8,27 +8,24 @@ import android.view.View
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.setFragmentResultListener
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.ahmedfathy.articles.R
 import com.ahmedfathy.articles.data.SortOrder
 import com.ahmedfathy.articles.data.ArticleEntity
-import com.ahmedfathy.articles.databinding.FragmentTasksBinding
+import com.ahmedfathy.articles.databinding.FragmentArticlesBinding
 import com.ahmedfathy.articles.util.exhaustive
 import com.ahmedfathy.articles.util.onQueryTextChanged
-import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.fragment_articles.*
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
-class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnItemClickListener {
+class ArticlesFragment : Fragment(R.layout.fragment_articles), ArticlesAdapter.OnItemClickListener {
 
     private val viewModel: ArticlesViewModel by viewModels()
 
@@ -37,8 +34,8 @@ class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnIt
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val binding = FragmentTasksBinding.bind(view)
-
+        val binding = FragmentArticlesBinding.bind(view)
+        //main articles adapter
         val taskAdapter = ArticlesAdapter(this)
 
         binding.apply {
@@ -47,75 +44,28 @@ class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnIt
                 layoutManager = LinearLayoutManager(requireContext())
                 setHasFixedSize(true)
             }
-
-            ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(
-                0,
-                ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT
-            ) {
-                override fun onMove(
-                    recyclerView: RecyclerView,
-                    viewHolder: RecyclerView.ViewHolder,
-                    target: RecyclerView.ViewHolder
-                ): Boolean {
-                    return false
-                }
-
-                override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
-                    val task = taskAdapter.currentList[viewHolder.adapterPosition]
-                    viewModel.onTaskSwiped(task)
-                }
-            }).attachToRecyclerView(recyclerViewTasks)
-
-            fabAddTask.setOnClickListener {
-                viewModel.onAddNewTaskClick()
-            }
         }
 
-        setFragmentResultListener("add_edit_request") { _, bundle ->
-            val result = bundle.getInt("add_edit_result")
-            viewModel.onAddEditResult(result)
-        }
-
-
-
-        viewModel.tasks.observe(viewLifecycleOwner) {
+        viewModel.articlesLiveData.observe(viewLifecycleOwner) {
+            //update recycler data
             taskAdapter.submitList(it)
         }
 
         viewModel.isLoading.observe(viewLifecycleOwner){ isLoading ->
+            //observe loading state
             binding.progressBar.isVisible = isLoading
         }
 
+        //collect data about screen events and take actions to respond
         viewLifecycleOwner.lifecycleScope.launchWhenStarted {
-
             viewModel.tasksEvent.collect { event ->
                 when (event) {
-                    is ArticlesViewModel.TasksEvent.ShowUndoDeleteTaskMessage -> {
-                        Snackbar.make(requireView(), "Task deleted", Snackbar.LENGTH_LONG)
-                            .setAction("UNDO") {
-                                viewModel.onUndoDeleteClick(event.articleEntity)
-                            }.show()
-                    }
-                    is ArticlesViewModel.TasksEvent.NavigateToAddTaskScreen -> {
+                    is ArticlesViewModel.TasksEvent.NavigateToArticleInfoScreen -> {
                         val action =
-                            ArticlesFragmentDirections.actionTasksFragmentToAddEditTaskFragment(
-                                "New Task"
+                            ArticlesFragmentDirections.actionArticleFragmentToArticleInfoFragment(
+                                "${event.articleEntity.section}",
+                                      event.articleEntity
                             )
-                        findNavController().navigate(action)
-                    }
-                    is ArticlesViewModel.TasksEvent.NavigateToEditTaskScreen -> {
-                        val action =
-                            ArticlesFragmentDirections.actionTasksFragmentToAddEditTaskFragment(
-                                "Edit Task"
-                            )
-                        findNavController().navigate(action)
-                    }
-                    is ArticlesViewModel.TasksEvent.ShowTaskSavedConfirmationMessage -> {
-                        Snackbar.make(requireView(), event.msg, Snackbar.LENGTH_SHORT).show()
-                    }
-                    is ArticlesViewModel.TasksEvent.NavigateToDeleteAllCompletedScreen -> {
-                        val action =
-                            ArticlesFragmentDirections.actionGlobalDeleteAllCompletedDialogFragment()
                         findNavController().navigate(action)
                     }
                 }.exhaustive
@@ -126,7 +76,7 @@ class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnIt
     }
 
     override fun onItemClick(articleEntity: ArticleEntity) {
-        viewModel.onTaskSelected(articleEntity)
+        viewModel.onArticleSelected(articleEntity)
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -140,11 +90,11 @@ class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnIt
             searchItem.expandActionView()
             searchView.setQuery(pendingQuery, false)
         }
-
+        //use extension function here to make search query
         searchView.onQueryTextChanged {
             viewModel.searchQuery.value = it
         }
-
+        //get state of HideCompleted articles button from PreferencesManager
         viewLifecycleOwner.lifecycleScope.launch {
             menu.findItem(R.id.action_hide_completed_tasks).isChecked =
                 viewModel.preferencesFlow.first().hideCompleted
@@ -166,16 +116,15 @@ class ArticlesFragment : Fragment(R.layout.fragment_tasks), ArticlesAdapter.OnIt
                 viewModel.onHideCompletedClick(item.isChecked)
                 true
             }
-            R.id.action_delete_all_completed_tasks -> {
-                viewModel.onDeleteAllCompletedClick()
-                true
-            }
             else -> super.onOptionsItemSelected(item)
         }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
+        //stop listening to user query after destroying this fragment
         searchView.setOnQueryTextListener(null)
     }
+
+
 }

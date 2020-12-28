@@ -7,10 +7,7 @@ import com.ahmedfathy.articles.data.PreferencesManager
 import com.ahmedfathy.articles.data.SortOrder
 import com.ahmedfathy.articles.data.ArticleEntity
 import com.ahmedfathy.articles.data.ArticleDao
-import com.ahmedfathy.articles.models.Article
 import com.ahmedfathy.articles.repository.MainRepository
-import com.ahmedfathy.articles.ui.ADD_TASK_RESULT_OK
-import com.ahmedfathy.articles.ui.EDIT_TASK_RESULT_OK
 import com.skydoves.pokedex.base.LiveCoroutinesViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
@@ -28,6 +25,7 @@ class ArticlesViewModel @ViewModelInject constructor(
 
     val isLoading : MutableLiveData<Boolean> = MutableLiveData(true)
 
+    private var articlesFromApi : LiveData<Flow<List<ArticleEntity>>>
 
     val searchQuery = state.getLiveData("searchQuery", "")
 
@@ -35,7 +33,6 @@ class ArticlesViewModel @ViewModelInject constructor(
 
     private val tasksEventChannel = Channel<TasksEvent>()
     val tasksEvent = tasksEventChannel.receiveAsFlow()
-    var articlesFromApi : LiveData<Flow<List<ArticleEntity>>>
 
     init {
         articlesFromApi = launchOnViewModelScope {
@@ -46,8 +43,7 @@ class ArticlesViewModel @ViewModelInject constructor(
         }
     }
 
-
-    private val tasksFlow = combine(
+    private val articlesFlow = combine(
         articlesFromApi.asFlow(),
         searchQuery.asFlow(),
         preferencesFlow
@@ -57,7 +53,7 @@ class ArticlesViewModel @ViewModelInject constructor(
         articleDao.getArticles(query, filterPreferences.sortOrder, filterPreferences.hideCompleted)
     }
 
-    var tasks = tasksFlow.asLiveData()
+    var articlesLiveData = articlesFlow.asLiveData()
 
 
     fun onSortOrderSelected(sortOrder: SortOrder) = viewModelScope.launch {
@@ -68,43 +64,12 @@ class ArticlesViewModel @ViewModelInject constructor(
         preferencesManager.updateHideCompleted(hideCompleted)
     }
 
-    fun onTaskSelected(articleEntity: ArticleEntity) = viewModelScope.launch {
-        tasksEventChannel.send(TasksEvent.NavigateToEditTaskScreen(articleEntity))
-    }
-
-    fun onTaskSwiped(articleEntity: ArticleEntity) = viewModelScope.launch {
-        articleDao.delete(articleEntity)
-        tasksEventChannel.send(TasksEvent.ShowUndoDeleteTaskMessage(articleEntity))
-    }
-
-    fun onUndoDeleteClick(articleEntity: ArticleEntity) = viewModelScope.launch {
-        articleDao.insert(articleEntity)
-    }
-
-    fun onAddNewTaskClick() = viewModelScope.launch {
-        tasksEventChannel.send(TasksEvent.NavigateToAddTaskScreen)
-    }
-
-    fun onAddEditResult(result: Int) {
-        when (result) {
-            ADD_TASK_RESULT_OK -> showTaskSavedConfirmationMessage("Task added")
-            EDIT_TASK_RESULT_OK -> showTaskSavedConfirmationMessage("Task updated")
-        }
-    }
-
-    private fun showTaskSavedConfirmationMessage(text: String) = viewModelScope.launch {
-        tasksEventChannel.send(TasksEvent.ShowTaskSavedConfirmationMessage(text))
-    }
-
-    fun onDeleteAllCompletedClick() = viewModelScope.launch {
-        tasksEventChannel.send(TasksEvent.NavigateToDeleteAllCompletedScreen)
+    fun onArticleSelected(articleEntity: ArticleEntity) = viewModelScope.launch {
+        articleDao.update(articleEntity.copy(completed = true))
+        tasksEventChannel.send(TasksEvent.NavigateToArticleInfoScreen(articleEntity))
     }
 
     sealed class TasksEvent {
-        object NavigateToAddTaskScreen : TasksEvent()
-        data class NavigateToEditTaskScreen(val articleEntity: ArticleEntity) : TasksEvent()
-        data class ShowUndoDeleteTaskMessage(val articleEntity: ArticleEntity) : TasksEvent()
-        data class ShowTaskSavedConfirmationMessage(val msg: String) : TasksEvent()
-        object NavigateToDeleteAllCompletedScreen : TasksEvent()
+        data class NavigateToArticleInfoScreen(val articleEntity: ArticleEntity) : TasksEvent()
     }
 }

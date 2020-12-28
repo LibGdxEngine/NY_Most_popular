@@ -18,7 +18,7 @@ private const val TAG = "PreferencesManager"
 enum class SortOrder { BY_NAME, BY_DATE }
 
 data class FilterPreferences(val sortOrder: SortOrder, val hideCompleted: Boolean)
-
+//this class stores user preferences in dataStore api and return value as flow
 @Singleton
 class PreferencesManager @Inject constructor(@ApplicationContext context: Context) {
 
@@ -40,13 +40,13 @@ class PreferencesManager @Inject constructor(@ApplicationContext context: Contex
             val hideCompleted = preferences[PreferencesKeys.HIDE_COMPLETED] ?: false
             FilterPreferences(sortOrder, hideCompleted)
         }
-
+    //update the state of sort order in user interface
     suspend fun updateSortOrder(sortOrder: SortOrder) {
         dataStore.edit { preferences ->
             preferences[PreferencesKeys.SORT_ORDER] = sortOrder.name
         }
     }
-
+    //hide the opened articles from home screen
     suspend fun updateHideCompleted(hideCompleted: Boolean) {
         dataStore.edit { preferences ->
             preferences[PreferencesKeys.HIDE_COMPLETED] = hideCompleted

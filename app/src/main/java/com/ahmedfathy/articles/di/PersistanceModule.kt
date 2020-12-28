@@ -21,7 +21,7 @@ object AppModule {
     fun provideDatabase(
         app: Application,
         callback: ArticleDatabase.Callback
-    ) = Room.databaseBuilder(app, ArticleDatabase::class.java, "task_database")
+    ) = Room.databaseBuilder(app, ArticleDatabase::class.java, "articles_database")
         .fallbackToDestructiveMigration()
         .addCallback(callback)
         .build()

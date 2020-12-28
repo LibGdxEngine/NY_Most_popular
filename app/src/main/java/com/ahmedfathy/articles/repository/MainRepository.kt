@@ -3,12 +3,9 @@ package com.ahmedfathy.articles.repository
 
 import android.util.Log
 import androidx.annotation.WorkerThread
-import androidx.lifecycle.SavedStateHandle
-import androidx.lifecycle.asFlow
-import androidx.lifecycle.asLiveData
 import com.ahmedfathy.articles.data.ArticleDao
-import com.ahmedfathy.articles.data.ArticleEntity
 import com.ahmedfathy.articles.data.SortOrder
+import com.ahmedfathy.articles.mapper.mapper.fromModelToEntity
 import com.ahmedfathy.articles.network.ArticlesClient
 import com.skydoves.sandwich.*
 import kotlinx.coroutines.Dispatchers
@@ -19,7 +16,9 @@ class MainRepository @Inject constructor(
     private val articlesClient: ArticlesClient,
     private val articleDao: ArticleDao
 ) {
-
+    //this repo uses a caching mechanism to store data after first time using internet
+    //we fetch data from api and store it in room database
+    //if no network connection -> get data from room
     @WorkerThread
     suspend fun fetchArticlesList(
         onSuccess: () -> Unit,
@@ -28,14 +27,8 @@ class MainRepository @Inject constructor(
         val response = articlesClient.fetchArticlesList()
         response.suspendOnSuccess {
             var articles = data!!.results
-            articles!!.forEach() { article ->
-                var newArticle = ArticleEntity(
-                    id = article.id,
-                    title = article.title,
-                    source = article.source,
-                    section = article.section,
-                    publishedDate = article.publishedDate
-                )
+            articles?.forEach() { article ->
+                var newArticle = fromModelToEntity(article)
                 articleDao.insert(newArticle)
                 emit(articleDao.getArticles("", SortOrder.BY_DATE, false))
                 onSuccess()

@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 import kotlinx.android.parcel.Parcelize
 
-
+//response that we receive from api
 @JsonClass(generateAdapter = true)
 data class ArticleResponse (
     @field:Json(name = "status") val status: String,

@@ -1,0 +1,1258 @@
+{
+  "status":"OK",
+  "copyright":"Copyright (c) 2020 The New York Times Company.  All Rights Reserved.",
+  "num_results":20,
+  "results":[
+    {
+      "uri":"nyt://article/8876c6be-be27-57f9-b052-d87eda273f44",
+      "url":"https://www.nytimes.com/2020/12/20/business/media/smartmatic-lawsuit-fox-news-newsmax-oan.html",
+      "id":100000007510162,
+      "asset_id":100000007510162,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-21 17:44:51",
+      "section":"Business",
+      "subsection":"Media",
+      "nytdsection":"business",
+      "adx_keywords":"Presidential Election of 2020;Rumors and Misinformation;Conspiracy Theories;Voting Machines;Voter Fraud (Election Fraud);Libel and Slander;Suits and Litigation (Civil);News and News Media;Right-Wing Extremism and Alt-Right;Giuliani, Rudolph W;Powell, Sidney (Attorney);Smartmatic SGO Group;One America;Dominion Voting Systems Corp;Newsmax Media;Fox News Channel",
+      "column":null,
+      "byline":"By Ben Smith",
+      "type":"Article",
+      "title":"The ‘Red Slime’ Lawsuit That Could Sink Right-Wing Media",
+      "abstract":"Voting machine companies threaten “highly dangerous” cases against Fox, Newsmax and OAN, says Floyd Abrams.",
+      "des_facet":[
+        "Presidential Election of 2020",
+        "Rumors and Misinformation",
+        "Conspiracy Theories",
+        "Voting Machines",
+        "Voter Fraud (Election Fraud)",
+        "Libel and Slander",
+        "Suits and Litigation (Civil)",
+        "News and News Media",
+        "Right-Wing Extremism and Alt-Right"
+      ],
+      "org_facet":[
+        "Smartmatic SGO Group",
+        "One America",
+        "Dominion Voting Systems Corp",
+        "Newsmax Media",
+        "Fox News Channel"
+      ],
+      "per_facet":[
+        "Giuliani, Rudolph W",
+        "Powell, Sidney (Attorney)"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Last week, a lawyer for Antonio Mugica sent scathing letters to Fox, Newsmax and OAN demanding that they immediately, forcefully clear his company’s name.",
+          "copyright":"Niklas Hallen/Getty Images",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/business/20bensmith-print/20bensmith-print-thumbStandard-v3.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/business/20bensmith-print/20bensmith-print-mediumThreeByTwo210-v3.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/business/20bensmith-print/20bensmith-print-mediumThreeByTwo440-v3.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/beb7e8ad-a367-5d34-a104-ce7107b802b5",
+      "url":"https://www.nytimes.com/2020/12/22/world/americas/skylar-mack-cayman-islands-covid.html",
+      "id":100000007516155,
+      "asset_id":100000007516155,
+      "source":"New York Times",
+      "published_date":"2020-12-22",
+      "updated":"2020-12-22 22:31:06",
+      "section":"World",
+      "subsection":"Americas",
+      "nytdsection":"world",
+      "adx_keywords":"Coronavirus (2019-nCoV);Quarantines;Decisions and Verdicts;Travel and Vacations;Mack, Skylar;Trump, Donald J;Mercer University;Cayman Islands;Grand Cayman (Cayman Islands);Georgia",
+      "column":null,
+      "byline":"By Jenny Gross and John Eligon",
+      "type":"Article",
+      "title":"Sentence Is Cut for U.S. Student Who Broke Quarantine",
+      "abstract":"Skylar Mack, 18, was sentenced to four months in prison for violating coronavirus restrictions in the Cayman Islands. After an outcry, her sentence was reduced to two months on Tuesday.",
+      "des_facet":[
+        "Coronavirus (2019-nCoV)",
+        "Quarantines",
+        "Decisions and Verdicts",
+        "Travel and Vacations"
+      ],
+      "org_facet":[
+        "Mercer University"
+      ],
+      "per_facet":[
+        "Mack, Skylar",
+        "Trump, Donald J"
+      ],
+      "geo_facet":[
+        "Cayman Islands",
+        "Grand Cayman (Cayman Islands)",
+        "Georgia"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Skylar Mack was sentenced to four months in jail for violating quarantine laws in the Cayman Islands before her sentence was cut in half on Tuesday",
+          "copyright":"",
+          "approved_for_syndication":0,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/oakImage-1608637681482/oakImage-1608637681482-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/oakImage-1608637681482/oakImage-1608637681482-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/oakImage-1608637681482/oakImage-1608637681482-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/bd1c798a-98d9-572d-9597-37d4c36ec386",
+      "url":"https://www.nytimes.com/2020/12/25/us/nashville-explosion.html",
+      "id":100000007521393,
+      "asset_id":100000007521393,
+      "source":"New York Times",
+      "published_date":"2020-12-25",
+      "updated":"2020-12-28 06:21:21",
+      "section":"U.S.",
+      "subsection":"",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Nashville, Tenn, Explosion (2020);Bombs and Explosives;Nashville (Tenn)",
+      "column":null,
+      "byline":"By Jamie McGee, Rick Rojas, Lucy Tompkins and Derrick Bryson Taylor",
+      "type":"Article",
+      "title":"A Warning, Then a Blast: Nashville Explosion Was Deliberate, Police Say",
+      "abstract":"An explosion linked to a vehicle sent debris and shattered glass into the streets, and injured three people.",
+      "des_facet":[
+        "Nashville, Tenn, Explosion (2020)",
+        "Bombs and Explosives"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+        "Nashville (Tenn)"
+      ],
+      "media":[
+
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/ba57e509-3629-5e3b-b3e1-23f86136abba",
+      "url":"https://www.nytimes.com/2020/12/20/us/politics/congress-stimulus-deal.html",
+      "id":100000007510140,
+      "asset_id":100000007510140,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-21 19:37:32",
+      "section":"U.S.",
+      "subsection":"Politics",
+      "nytdsection":"u.s.",
+      "adx_keywords":"United States Economy;Stimulus (Economic);Coronavirus Aid, Relief, and Economic Security Act (2020);Coronavirus (2019-nCoV);Federal Budget (US);United States Politics and Government;Financial Aid (Education);Schumer, Charles E;Democratic Party;Republican Party;Senate;House of Representatives",
+      "column":null,
+      "byline":"By Emily Cochrane",
+      "type":"Article",
+      "title":"Congress Strikes Long-Sought Stimulus Deal to Provide $900 Billion in Aid",
+      "abstract":"Democrats and Republicans said they had an agreement on another round of pandemic aid, including direct payments to Americans, jobless benefits and funds for businesses and vaccine distribution.",
+      "des_facet":[
+        "United States Economy",
+        "Stimulus (Economic)",
+        "Coronavirus Aid, Relief, and Economic Security Act (2020)",
+        "Coronavirus (2019-nCoV)",
+        "Federal Budget (US)",
+        "United States Politics and Government",
+        "Financial Aid (Education)"
+      ],
+      "org_facet":[
+        "Democratic Party",
+        "Republican Party",
+        "Senate",
+        "House of Representatives"
+      ],
+      "per_facet":[
+        "Schumer, Charles E"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/93fdcde3-ecf1-5658-8e2a-4a1c9ef8a3f8",
+      "url":"https://www.nytimes.com/article/stimulus-deal-update.html",
+      "id":100000007509099,
+      "asset_id":100000007509099,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-28 06:26:44",
+      "section":"Business",
+      "subsection":"",
+      "nytdsection":"business",
+      "adx_keywords":"Coronavirus (2019-nCoV);Unemployment Insurance;Stimulus (Economic);Coronavirus Aid, Relief, and Economic Security Act (2020);Coronavirus Reopenings",
+      "column":null,
+      "byline":"By Tara Siegel Bernard and Ron Lieber",
+      "type":"Article",
+      "title":"The Stimulus Package: What’s in It for You",
+      "abstract":"Lawmakers agreed to issue stimulus payments of $600 and distribute a federal unemployment benefit of $300 for at least 10 weeks. But that money will take time to start arriving.",
+      "des_facet":[
+        "Coronavirus (2019-nCoV)",
+        "Unemployment Insurance",
+        "Stimulus (Economic)",
+        "Coronavirus Aid, Relief, and Economic Security Act (2020)",
+        "Coronavirus Reopenings"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"",
+          "copyright":"Robert Neubecker",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/19/business/00stimulus-faq/00stimulus-faq-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/19/business/00stimulus-faq/00stimulus-faq-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/19/business/00stimulus-faq/00stimulus-faq-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/4630f085-4fbc-5685-bd9f-840fe0d190fd",
+      "url":"https://www.nytimes.com/2020/12/23/us/susan-moore-black-doctor-indiana.html",
+      "id":100000007519144,
+      "asset_id":100000007519144,
+      "source":"New York Times",
+      "published_date":"2020-12-23",
+      "updated":"2020-12-25 14:42:51",
+      "section":"U.S.",
+      "subsection":"",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Coronavirus (2019-nCoV);Deaths (Fatalities);Discrimination;Race and Ethnicity;Black People;Doctors;Hospitals;Moore, Susan (1968-2020);Indiana University Health Inc;Carmel (Ind)",
+      "column":null,
+      "byline":"By John Eligon",
+      "type":"Article",
+      "title":"Black Doctor Dies of Covid-19 After Complaining of Racist Treatment",
+      "abstract":"“He made me feel like a drug addict,” Dr. Susan Moore said, accusing a white doctor of downplaying her complaints of pain and suggesting she should be discharged.",
+      "des_facet":[
+        "Coronavirus (2019-nCoV)",
+        "Deaths (Fatalities)",
+        "Discrimination",
+        "Race and Ethnicity",
+        "Black People",
+        "Doctors",
+        "Hospitals"
+      ],
+      "org_facet":[
+        "Indiana University Health Inc"
+      ],
+      "per_facet":[
+        "Moore, Susan (1968-2020)"
+      ],
+      "geo_facet":[
+        "Carmel (Ind)"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Dr. Susan Moore, in a screenshot from a video she took while hospitalized with Covid-19.",
+          "copyright":"",
+          "approved_for_syndication":0,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/23virus-blackdoctor-promo/23virus-blackdoctor-promo-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/23virus-blackdoctor-promo/23virus-blackdoctor-promo-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/23virus-blackdoctor-promo/23virus-blackdoctor-promo-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/58abb268-9343-5b6f-90fb-a807c54db4df",
+      "url":"https://www.nytimes.com/2020/12/20/health/coronavirus-britain-variant.html",
+      "id":100000007489204,
+      "asset_id":100000007489204,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-24 09:11:47",
+      "section":"Health",
+      "subsection":"",
+      "nytdsection":"health",
+      "adx_keywords":"Coronavirus (2019-nCoV);Disease Rates;Vaccination and Immunization;Immune System;Antibodies;Genetics and Heredity;your-feed-science;Great Britain;England;South Africa",
+      "column":null,
+      "byline":"By Apoorva Mandavilli",
+      "type":"Article",
+      "title":"The Coronavirus Is Mutating. What Does That Mean for Us?",
+      "abstract":"Officials in Britain and South Africa claim new variants are more easily transmitted. There’s a lot more to the story, scientists say.",
+      "des_facet":[
+        "Coronavirus (2019-nCoV)",
+        "Disease Rates",
+        "Vaccination and Immunization",
+        "Immune System",
+        "Antibodies",
+        "Genetics and Heredity",
+        "your-feed-science"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+        "Great Britain",
+        "England",
+        "South Africa"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"A woman walks on a rain-soaked Oxford Street on the first day of Tier 3 restrictions in London. The city has been moved to even tighter restrictions.",
+          "copyright":"Andrew Testa for The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-escape/20virus-escape-thumbStandard-v3.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-escape/20virus-escape-mediumThreeByTwo210-v3.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-escape/20virus-escape-mediumThreeByTwo440-v3.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/4201163b-1bdf-58d0-bc07-3021c51c1284",
+      "url":"https://www.nytimes.com/2020/12/20/opinion/trump-justice-department-lawyer.html",
+      "id":100000007505190,
+      "asset_id":100000007505190,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-21 17:44:31",
+      "section":"Opinion",
+      "subsection":"",
+      "nytdsection":"opinion",
+      "adx_keywords":"Executive Orders and Memorandums;Courts and the Judiciary;United States Politics and Government;Legal Profession;Trump, Donald J;Newland, Erica;Justice Department;Office of Legal Counsel (US);Supreme Court (US)",
+      "column":null,
+      "byline":"By Erica Newland",
+      "type":"Article",
+      "title":"I’m Haunted by What I Did as a Lawyer in the Trump Justice Department",
+      "abstract":"No matter our intentions, lawyers like me were complicit. We owe the country our honesty about what we saw — and should do in the future.",
+      "des_facet":[
+        "Executive Orders and Memorandums",
+        "Courts and the Judiciary",
+        "United States Politics and Government",
+        "Legal Profession"
+      ],
+      "org_facet":[
+        "Justice Department",
+        "Office of Legal Counsel (US)",
+        "Supreme Court (US)"
+      ],
+      "per_facet":[
+        "Trump, Donald J",
+        "Newland, Erica"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"",
+          "copyright":"Doug Mills/The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/opinion/21newland1/21newland1-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/opinion/21newland1/21newland1-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/opinion/21newland1/21newland1-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/5a9e2d40-cf17-5000-b9c2-baabe0d5c1c3",
+      "url":"https://www.nytimes.com/2020/12/25/health/Covid-moderna-vaccine-allergies.html",
+      "id":100000007521241,
+      "asset_id":100000007521241,
+      "source":"New York Times",
+      "published_date":"2020-12-25",
+      "updated":"2020-12-26 14:10:41",
+      "section":"Health",
+      "subsection":"",
+      "nytdsection":"health",
+      "adx_keywords":"Vaccination and Immunization;Coronavirus (2019-nCoV);Allergies;Anaphylactic Shock;Drugs (Pharmaceuticals);Immune System;your-feed-healthcare;Moderna Inc;Centers for Disease Control and Prevention;Pfizer Inc",
+      "column":null,
+      "byline":"By Katherine J. Wu",
+      "type":"Article",
+      "title":"Boston Doctor Reports Serious Allergic Reaction After Getting Moderna’s Covid Vaccine",
+      "abstract":"The patient, who has a severe shellfish allergy, recovered quickly with treatment. Until now, reports of severe reactions had been linked to the Pfizer vaccine.",
+      "des_facet":[
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)",
+        "Allergies",
+        "Anaphylactic Shock",
+        "Drugs (Pharmaceuticals)",
+        "Immune System",
+        "your-feed-healthcare"
+      ],
+      "org_facet":[
+        "Moderna Inc",
+        "Centers for Disease Control and Prevention",
+        "Pfizer Inc"
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"A person receives the Moderna vaccine in Boston on Thursday.",
+          "copyright":"Joseph Prezioso/Agence France-Presse — Getty Images",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/science/25virus-moderna1/25virus-moderna1-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/science/25virus-moderna1/25virus-moderna1-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/science/25virus-moderna1/25virus-moderna1-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/a33a55a0-b51c-5cef-8d51-a4e6a2c02f61",
+      "url":"https://www.nytimes.com/2020/12/26/us/mimi-groves-jimmy-galligan-racial-slurs.html",
+      "id":100000007459462,
+      "asset_id":100000007459462,
+      "source":"New York Times",
+      "published_date":"2020-12-26",
+      "updated":"2020-12-27 21:42:14",
+      "section":"U.S.",
+      "subsection":"",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Black People;Discrimination;Social Media;Video Recordings, Downloads and Streaming;Colleges and Universities;Black Lives Matter Movement;Race and Ethnicity;Galligan, Jimmy;Groves, Mimi;University of Tennessee;Loudoun County (Va);Leesburg (Va)",
+      "column":null,
+      "byline":"By Dan Levin",
+      "type":"Article",
+      "title":"A Racial Slur, a Viral Video, and a Reckoning",
+      "abstract":"A white high school student withdrew from her chosen college after a three-second video caused an uproar online. The classmate who shared it publicly has no regrets.",
+      "des_facet":[
+        "Black People",
+        "Discrimination",
+        "Social Media",
+        "Video Recordings, Downloads and Streaming",
+        "Colleges and Universities",
+        "Black Lives Matter Movement",
+        "Race and Ethnicity"
+      ],
+      "org_facet":[
+        "University of Tennessee"
+      ],
+      "per_facet":[
+        "Galligan, Jimmy",
+        "Groves, Mimi"
+      ],
+      "geo_facet":[
+        "Loudoun County (Va)",
+        "Leesburg (Va)"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"",
+          "copyright":"Alyssa Schukar for The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/17/us/00student6/00student6-thumbStandard-v2.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/17/us/00student6/00student6-mediumThreeByTwo210-v2.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/17/us/00student6/00student6-mediumThreeByTwo440-v2.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/ba995d9e-4eee-55a6-930a-b5d9c6d3b77f",
+      "url":"https://www.nytimes.com/2020/12/20/health/covid-vaccine-first-elderly-workers.html",
+      "id":100000007513081,
+      "asset_id":100000007513081,
+      "source":"New York Times",
+      "published_date":"2020-12-20",
+      "updated":"2020-12-24 08:09:41",
+      "section":"Health",
+      "subsection":"",
+      "nytdsection":"health",
+      "adx_keywords":"your-feed-science;Coronavirus (2019-nCoV);Vaccination and Immunization;Labor and Jobs;Nursing Homes;Elderly;your-feed-healthcare;Centers for Disease Control and Prevention;Advisory Committee on Immunization Practices;Moderna Inc;Pfizer Inc;United States",
+      "column":null,
+      "byline":"By Abby Goodnough and Jan Hoffman",
+      "type":"Article",
+      "title":"Frontline Workers and People Over 74 Should Get Shots Next, C.D.C. Panel Says",
+      "abstract":"The recommendation was a compromise aimed at getting the coronavirus vaccine to the most vulnerable of two high-risk groups.",
+      "des_facet":[
+        "your-feed-science",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Labor and Jobs",
+        "Nursing Homes",
+        "Elderly",
+        "your-feed-healthcare"
+      ],
+      "org_facet":[
+        "Centers for Disease Control and Prevention",
+        "Advisory Committee on Immunization Practices",
+        "Moderna Inc",
+        "Pfizer Inc"
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+        "United States"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Dr. Richard Fine, head of anesthesiology at Einstein Medical Center in Philadelphia, receiving the Pfizer-BioNTech Covid-19 vaccine.",
+          "copyright":"Hannah Yoon for The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-vaccine1a/merlin_181323678_b613b126-0b13-4c58-a5a6-05ca268f6d20-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-vaccine1a/merlin_181323678_b613b126-0b13-4c58-a5a6-05ca268f6d20-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/20/multimedia/20virus-vaccine1a/merlin_181323678_b613b126-0b13-4c58-a5a6-05ca268f6d20-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/d36d00ae-7f92-58b8-ae7e-f85a2d9d02ec",
+      "url":"https://www.nytimes.com/2020/12/21/health/new-covid-strain-uk.html",
+      "id":100000007514705,
+      "asset_id":100000007514705,
+      "source":"New York Times",
+      "published_date":"2020-12-21",
+      "updated":"2020-12-23 15:39:33",
+      "section":"Health",
+      "subsection":"",
+      "nytdsection":"health",
+      "adx_keywords":"Coronavirus (2019-nCoV);Vaccination and Immunization;Genetics and Heredity;Antibodies;your-feed-science;your-feed-health;Ferguson, Neil M;Food and Drug Administration;England;Europe",
+      "column":null,
+      "byline":"By Carl Zimmer and Benedict Carey",
+      "type":"Article",
+      "title":"The U.K. Coronavirus Variant: What We Know",
+      "abstract":"A newly identified variant of the SARS-CoV-2 virus appears to be more contagious than established ones. Here’s what scientists know.",
+      "des_facet":[
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Genetics and Heredity",
+        "Antibodies",
+        "your-feed-science",
+        "your-feed-health"
+      ],
+      "org_facet":[
+        "Food and Drug Administration"
+      ],
+      "per_facet":[
+        "Ferguson, Neil M"
+      ],
+      "geo_facet":[
+        "England",
+        "Europe"
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"",
+          "copyright":"",
+          "approved_for_syndication":0,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/health/virus-variant-1608579875269/virus-variant-1608579875269-thumbStandard-v2.png",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/health/virus-variant-1608579875269/virus-variant-1608579875269-mediumThreeByTwo210.png",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/health/virus-variant-1608579875269/virus-variant-1608579875269-mediumThreeByTwo440.png",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/e6a7a625-b7c2-5d5c-8ffa-1dec63b16b5f",
+      "url":"https://www.nytimes.com/2020/12/26/us/nashville-bomb-explosion.html",
+      "id":100000007522033,
+      "asset_id":100000007522033,
+      "source":"New York Times",
+      "published_date":"2020-12-26",
+      "updated":"2020-12-28 06:21:58",
+      "section":"U.S.",
+      "subsection":"",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Nashville, Tenn, Explosion (2020);Bombs and Explosives;Nashville (Tenn)",
+      "column":null,
+      "byline":"By Rick Rojas and Adam Goldman",
+      "type":"Article",
+      "title":"Nashville Explosion: What to Know",
+      "abstract":"DNA tests of human remains found at the scene match a 63-year-old Nashville man identified as a person of interest in the explosion, which ripped through downtown Nashville Christmas morning.",
+      "des_facet":[
+        "Nashville, Tenn, Explosion (2020)",
+        "Bombs and Explosives"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+        "Nashville (Tenn)"
+      ],
+      "media":[
+
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/167a2963-937b-5a65-b487-6a4b2d619a1d",
+      "url":"https://www.nytimes.com/2020/12/21/upshot/after-vaccine-recommendations-experts.html",
+      "id":100000007509100,
+      "asset_id":100000007509100,
+      "source":"New York Times",
+      "published_date":"2020-12-21",
+      "updated":"2020-12-23 10:12:38",
+      "section":"The Upshot",
+      "subsection":"",
+      "nytdsection":"the upshot",
+      "adx_keywords":"Vaccination and Immunization;Coronavirus (2019-nCoV);Disease Rates;Coronavirus Risks and Safety Concerns;Content Type: Service",
+      "column":null,
+      "byline":"By Claire Cain Miller, Margot Sanger-Katz and Katherine J. Wu",
+      "type":"Article",
+      "title":"What You Can Do Post-Vaccine, and When",
+      "abstract":"Particularly in the early months of vaccination, many activities should wait, experts say — and plan to keep your masks.",
+      "des_facet":[
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)",
+        "Disease Rates",
+        "Coronavirus Risks and Safety Concerns",
+        "Content Type: Service"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"",
+          "copyright":"Niklas Halle'n/Agence France-Presse — Getty Images",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/upshot/21up-virus-post-vaccine/21up-virus-post-vaccine-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/upshot/21up-virus-post-vaccine/merlin_171503055_1b4b1d4b-61e1-444e-baeb-110e44eb0ce6-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/21/upshot/21up-virus-post-vaccine/merlin_171503055_1b4b1d4b-61e1-444e-baeb-110e44eb0ce6-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/c62e790c-eb4a-5c5e-98b8-e242dc243ece",
+      "url":"https://www.nytimes.com/2020/12/21/nyregion/la-guardia-airport-dog-passenger-plane.html",
+      "id":100000007515212,
+      "asset_id":100000007515212,
+      "source":"New York Times",
+      "published_date":"2020-12-21",
+      "updated":"2020-12-23 01:04:16",
+      "section":"New York",
+      "subsection":"",
+      "nytdsection":"new york",
+      "adx_keywords":"Airlines and Airplanes;Post-Traumatic Stress Disorder;Delta Air Lines Inc;LaGuardia Airport (Queens, NY)",
+      "column":null,
+      "byline":"By Ed Shanahan",
+      "type":"Article",
+      "title":"2 Passengers and a Dog Slide Out of Moving Plane at La Guardia",
+      "abstract":"Delta Flight 462 was delayed for hours after a male passenger forced open a cabin door while the plane was taxiing. He and his companions slid their way out of the plane.",
+      "des_facet":[
+        "Airlines and Airplanes",
+        "Post-Traumatic Stress Disorder"
+      ],
+      "org_facet":[
+        "Delta Air Lines Inc",
+        "LaGuardia Airport (Queens, NY)"
+      ],
+      "per_facet":[
+
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"The Delta Air Lines terminal at La Guardia Airport on June 10. The commotion began when a male passenger refused to stay seated, complaining of post-traumatic stress disorder, another passenger said.",
+          "copyright":"Chang W. Lee/The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/nyregion/21ny-runwayescape/21ny-runwayescape-thumbStandard-v2.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/nyregion/21ny-runwayescape/21ny-runwayescape-mediumThreeByTwo210-v3.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/nyregion/21ny-runwayescape/21ny-runwayescape-mediumThreeByTwo440-v3.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/aeec41bd-7bee-579c-9157-00d17bbbbc82",
+      "url":"https://www.nytimes.com/2020/12/22/us/politics/trump-pardons.html",
+      "id":100000007517582,
+      "asset_id":100000007517582,
+      "source":"New York Times",
+      "published_date":"2020-12-22",
+      "updated":"2020-12-24 09:49:36",
+      "section":"U.S.",
+      "subsection":"Politics",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Amnesties, Commutations and Pardons;Presidents and Presidency (US);Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Politics and Government;Iraq War (2003-11);Civilian Casualties;Trump, Donald J;Papadopoulos, George (1987- );van der Zwaan, Alex;Slatten, Nicholas A;Hunter, Duncan D (1976- );Collins, Christopher C;Stockman, Steve;Esformes, Philip (1968- );Blackwater Worldwide",
+      "column":null,
+      "byline":"By Maggie Haberman and Michael S. Schmidt",
+      "type":"Article",
+      "title":"Trump Pardons Two Russia Inquiry Figures and Blackwater Guards",
+      "abstract":"The pre-Christmas wave of 20 pardons and commutations are not likely to be the last before Mr. Trump leaves office on Jan. 20.",
+      "des_facet":[
+        "Amnesties, Commutations and Pardons",
+        "Presidents and Presidency (US)",
+        "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+        "United States Politics and Government",
+        "Iraq War (2003-11)",
+        "Civilian Casualties"
+      ],
+      "org_facet":[
+        "Blackwater Worldwide"
+      ],
+      "per_facet":[
+        "Trump, Donald J",
+        "Papadopoulos, George (1987- )",
+        "van der Zwaan, Alex",
+        "Slatten, Nicholas A",
+        "Hunter, Duncan D (1976- )",
+        "Collins, Christopher C",
+        "Stockman, Steve",
+        "Esformes, Philip (1968- )"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"George Papadopoulos served 12 days in jail for lying to the F.B.I. about his contacts with Russian intermediaries during the 2016 presidential race. He was pardoned by the president on Tuesday.",
+          "copyright":"Carolyn Kaster/Associated Press",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump-pardons/22dc-trump-pardons-thumbStandard-v2.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump-pardons/22dc-trump-pardons-mediumThreeByTwo210-v3.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump-pardons/22dc-trump-pardons-mediumThreeByTwo440-v3.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/84135803-ba1c-5fa6-a33b-8eb3f0ab3679",
+      "url":"https://www.nytimes.com/2020/12/27/us/politics/trump-signs-pandemic-relief.html",
+      "id":100000007521517,
+      "asset_id":100000007521517,
+      "source":"New York Times",
+      "published_date":"2020-12-27",
+      "updated":"2020-12-28 06:26:46",
+      "section":"U.S.",
+      "subsection":"Politics",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Stimulus (Economic);Unemployment Insurance;United States Economy;United States Politics and Government;Coronavirus (2019-nCoV);Law and Legislation;Real Estate and Housing (Residential);Federal Aid (US);Budgets and Budgeting;Trump, Donald J",
+      "column":null,
+      "byline":"By Emily Cochrane, Nelson D. Schwartz and Gillian Friedman",
+      "type":"Article",
+      "title":"Trump Signs Pandemic Relief Bill After Unemployment Aid Lapses",
+      "abstract":"After calling the measure a “disgrace,” President Trump unexpectedly signed the bill, extending expanded unemployment benefits and an eviction moratorium, and keeping the government open.",
+      "des_facet":[
+        "Stimulus (Economic)",
+        "Unemployment Insurance",
+        "United States Economy",
+        "United States Politics and Government",
+        "Coronavirus (2019-nCoV)",
+        "Law and Legislation",
+        "Real Estate and Housing (Residential)",
+        "Federal Aid (US)",
+        "Budgets and Budgeting"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+        "Trump, Donald J"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"President Trump, who had stalled on the bill for days, issued a series of demands for congressional action even as he signed it, though lawmakers showed little immediate enthusiasm for his requests.",
+          "copyright":"Oliver Contreras for The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/us/politics/25dc-stimulus-signed-hfo/25dc-stimulus-signed-hfo-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/us/politics/25dc-stimulus-signed-hfo/merlin_181611240_de796c36-f116-4bec-9dce-96fab6b64570-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/25/us/politics/25dc-stimulus-signed-hfo/merlin_181611240_de796c36-f116-4bec-9dce-96fab6b64570-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/e952ed61-627d-5251-99a3-45d002c3878c",
+      "url":"https://www.nytimes.com/2020/12/23/us/politics/trump-end-of-presidency.html",
+      "id":100000007517188,
+      "asset_id":100000007517188,
+      "source":"New York Times",
+      "published_date":"2020-12-23",
+      "updated":"2020-12-24 09:17:04",
+      "section":"U.S.",
+      "subsection":"Politics",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Presidential Election of 2020;United States Politics and Government;Voter Fraud (Election Fraud);Trump, Donald J;Tuberville, Tommy;Bolton, John R;Biden, Joseph R Jr;Barr, William P",
+      "column":null,
+      "byline":"By Maggie Haberman and Michael S. Schmidt",
+      "type":"Article",
+      "title":"A President Unhappy, Unleashed and Unpredictable",
+      "abstract":"President Trump remains the most powerful man in the world, but powerless to achieve what he most wants: to avoid leaving office as a loser.",
+      "des_facet":[
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Voter Fraud (Election Fraud)"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+        "Trump, Donald J",
+        "Tuberville, Tommy",
+        "Bolton, John R",
+        "Biden, Joseph R Jr",
+        "Barr, William P"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"President Trump returning to the White House after the Army-Navy football game this month. He has made few public appearances in the past few weeks.",
+          "copyright":"Stefani Reynolds for The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump1/22dc-trump1-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump1/merlin_181165326_2c1766da-2eac-45c3-8610-b331a5722566-mediumThreeByTwo210.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/22/us/politics/22dc-trump1/merlin_181165326_2c1766da-2eac-45c3-8610-b331a5722566-mediumThreeByTwo440.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/bea2e780-e9cb-558f-9c04-07cb0c5c1948",
+      "url":"https://www.nytimes.com/2020/12/23/us/politics/trump-pardon-manafort-stone.html",
+      "id":100000007519008,
+      "asset_id":100000007519008,
+      "source":"New York Times",
+      "published_date":"2020-12-23",
+      "updated":"2020-12-24 13:12:39",
+      "section":"U.S.",
+      "subsection":"Politics",
+      "nytdsection":"u.s.",
+      "adx_keywords":"Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Politics and Government;Amnesties, Commutations and Pardons;Trump, Donald J;Manafort, Paul J;Stone, Roger J Jr;Hunter, Duncan D (1976- );Hunter, Margaret;Kushner, Charles;Kushner, Jared",
+      "column":null,
+      "byline":"By Maggie Haberman and Michael S. Schmidt",
+      "type":"Article",
+      "title":"Trump Gives Clemency to More Allies, Including Manafort, Stone and Charles Kushner",
+      "abstract":"It was the second wave of pardons and commutations by the president in two days, showing his willingness to use his power aggressively on behalf of loyalists.",
+      "des_facet":[
+        "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+        "United States Politics and Government",
+        "Amnesties, Commutations and Pardons"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+        "Trump, Donald J",
+        "Manafort, Paul J",
+        "Stone, Roger J Jr",
+        "Hunter, Duncan D (1976- )",
+        "Hunter, Margaret",
+        "Kushner, Charles",
+        "Kushner, Jared"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Jared Kushner and his father, Charles Kushner, at a party in 2014 in New York. Charles Kushner was pardoned on Wednesday by President Trump.",
+          "copyright":"Patrick McMullan, via Sipa USA",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/politics/23dc-pardons/23dc-pardons-thumbStandard.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/politics/23dc-pardons/23dc-pardons-mediumThreeByTwo210-v3.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/23/us/politics/23dc-pardons/23dc-pardons-mediumThreeByTwo440-v3.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    },
+    {
+      "uri":"nyt://article/a2f4174b-08e2-5ee6-9bb5-65927bfa76ce",
+      "url":"https://www.nytimes.com/2020/12/23/theater/rebecca-luker-dead.html",
+      "id":100000007040409,
+      "asset_id":100000007040409,
+      "source":"New York Times",
+      "published_date":"2020-12-23",
+      "updated":"2020-12-24 17:30:18",
+      "section":"Theater",
+      "subsection":"",
+      "nytdsection":"theater",
+      "adx_keywords":"Deaths (Obituaries);Theater;Actors and Actresses;Music;Tony Awards (Theater Awards);Luker, Rebecca",
+      "column":null,
+      "byline":"By Anita Gates",
+      "type":"Article",
+      "title":"Rebecca Luker, a Broadway Star for Three Decades, Dies at 59",
+      "abstract":"Her Broadway career, fueled by her crystal-clear operatic soprano, brought her Tony Award nominations for “Show Boat,” “The Music Man” and “Mary Poppins.”",
+      "des_facet":[
+        "Deaths (Obituaries)",
+        "Theater",
+        "Actors and Actresses",
+        "Music",
+        "Tony Awards (Theater Awards)"
+      ],
+      "org_facet":[
+
+      ],
+      "per_facet":[
+        "Luker, Rebecca"
+      ],
+      "geo_facet":[
+
+      ],
+      "media":[
+        {
+          "type":"image",
+          "subtype":"photo",
+          "caption":"Rebecca Luker as Maria, surrounded by the von Trapp children, in the 1998 Broadway revival of “The Sound of Music.” She also starred in hit revivals of “Show Boat” and “The Music Man.”",
+          "copyright":"Sara Krulwich/The New York Times",
+          "approved_for_syndication":1,
+          "media-metadata":[
+            {
+              "url":"https://static01.nyt.com/images/2020/12/24/obituaries/00luker01/00luker01-thumbStandard-v2.jpg",
+              "format":"Standard Thumbnail",
+              "height":75,
+              "width":75
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/24/obituaries/00luker01/00luker01-mediumThreeByTwo210-v2.jpg",
+              "format":"mediumThreeByTwo210",
+              "height":140,
+              "width":210
+            },
+            {
+              "url":"https://static01.nyt.com/images/2020/12/24/obituaries/00luker01/00luker01-mediumThreeByTwo440-v2.jpg",
+              "format":"mediumThreeByTwo440",
+              "height":293,
+              "width":440
+            }
+          ]
+        }
+      ],
+      "eta_id":0
+    }
+  ]
+}

@@ -37,13 +37,4 @@ object RepositoryModule {
   ): MainRepository {
     return MainRepository(articlesClient, articlesDao)
   }
-
-//  @Provides
-//  @ActivityRetainedScoped
-//  fun provideDetailRepository(
-//    pokedexClient: PokedexClient,
-//    pokemonInfoDao: PokemonInfoDao
-//  ): DetailRepository {
-//    return DetailRepository(pokedexClient, pokemonInfoDao)
-//  }
 }

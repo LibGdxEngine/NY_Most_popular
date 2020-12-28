@@ -5,8 +5,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.ahmedfathy.articles.R
 import com.ahmedfathy.articles.data.ArticleEntity
 import com.ahmedfathy.articles.databinding.ArticleRowBinding
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 class ArticlesAdapter(private val listener: OnItemClickListener) :
     ListAdapter<ArticleEntity, ArticlesAdapter.TasksViewHolder>(DiffCallback()) {
@@ -38,12 +41,26 @@ class ArticlesAdapter(private val listener: OnItemClickListener) :
 
         fun bind(articleEntity: ArticleEntity) {
             binding.apply {
+                //mark already completed article in purple color to recognize it as completed
+                if(articleEntity.completed){
+                    textViewTitle.setTextColor(rootCardView.context.resources.getColor(R.color.completed_articles_color))
+                    textViewSubtitle.setTextColor(rootCardView.context.resources.getColor(R.color.completed_articles_color))
+                    textViewDate.setTextColor(rootCardView.context.resources.getColor(R.color.completed_articles_color))
+                    sectionsTextView.setTextColor(rootCardView.context.resources.getColor(R.color.completed_articles_color))
+                }
                 textViewTitle.text = articleEntity.title
                 textViewSubtitle.text = articleEntity.source
                 textViewDate.text = articleEntity.publishedDate
+                sectionsTextView.text = articleEntity.section
+                Glide.with(articleImageview.context)
+                    .load(articleEntity.thumbnail)
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .placeholder(R.drawable.logo_)
+                    .into(articleImageview)
             }
         }
     }
+
 
     interface OnItemClickListener {
         fun onItemClick(articleEntity: ArticleEntity)

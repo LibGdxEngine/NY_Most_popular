@@ -19,6 +19,7 @@ package com.ahmedfathy.articles.network
 import okhttp3.Interceptor
 import okhttp3.Response
 
+//interceptor used to control http request cancellation
 class HttpRequestInterceptor : Interceptor {
   override fun intercept(chain: Interceptor.Chain): Response {
     val originalRequest = chain.request()

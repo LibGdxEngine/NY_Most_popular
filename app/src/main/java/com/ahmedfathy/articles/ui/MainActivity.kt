@@ -8,6 +8,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.ahmedfathy.articles.R
+import com.ahmedfathy.articles.ui.Articles.ArticlesFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -28,7 +29,14 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
-}
 
-const val ADD_TASK_RESULT_OK = Activity.RESULT_FIRST_USER
-const val EDIT_TASK_RESULT_OK = Activity.RESULT_FIRST_USER + 1
+    override fun onBackPressed() {
+        if(navController.currentDestination?.id == R.id.articlesFragment){
+            val action =
+                ArticlesFragmentDirections.actionArticlesFragmentToDeleteAllCompletedDialogFragment()
+            navController.navigate(action)
+        }else{
+            super.onBackPressed()
+        }
+    }
+}

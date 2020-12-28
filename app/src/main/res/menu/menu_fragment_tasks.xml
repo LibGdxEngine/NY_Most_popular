@@ -22,7 +22,7 @@
 
             <item
                 android:id="@+id/action_sort_by_date_created"
-                android:title="Sort by date created" />
+                android:title="Sort by date published" />
 
         </menu>
 
@@ -34,9 +34,5 @@
         android:title="Hide completed"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/action_delete_all_completed_tasks"
-        android:title="Delete all completed"
-        app:showAsAction="never" />
 
 </menu>

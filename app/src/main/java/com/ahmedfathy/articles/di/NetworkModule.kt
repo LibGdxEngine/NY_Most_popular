@@ -23,9 +23,9 @@ object NetworkModule {
     @Singleton
     fun provideOkHttpClient(): OkHttpClient {
         return OkHttpClient.Builder()
-            .connectTimeout(10000 ,TimeUnit.MILLISECONDS)
-            .readTimeout(10000 , TimeUnit.MILLISECONDS)
-            .writeTimeout(10000 , TimeUnit.MILLISECONDS)
+            .connectTimeout(2000 ,TimeUnit.MILLISECONDS)
+            .readTimeout(2000 , TimeUnit.MILLISECONDS)
+            .writeTimeout(2000 , TimeUnit.MILLISECONDS)
             .addInterceptor(HttpRequestInterceptor())
             .build()
     }

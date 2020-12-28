@@ -9,25 +9,30 @@
         android:id="@+id/articlesFragment"
         android:name="com.ahmedfathy.articles.ui.Articles.ArticlesFragment"
         android:label="New York Articles"
-        tools:layout="@layout/fragment_tasks">
+        tools:layout="@layout/fragment_articles">
         <action
-            android:id="@+id/action_tasksFragment_to_addEditTaskFragment"
-            app:destination="@id/addEditTaskFragment" />
+            android:id="@+id/action_ArticleFragment_to_articleInfoFragment"
+            app:destination="@id/ArticleInfoFragment"
+            app:popUpTo="@id/ArticleInfoFragment" />
+        <action
+            android:id="@+id/action_articlesFragment_to_deleteAllCompletedDialogFragment"
+            app:destination="@id/ConfirmationFragment" />
     </fragment>
     <fragment
-        android:id="@+id/addEditTaskFragment"
-        android:name="com.ahmedfathy.articles.ui.addedittask.AddEditTaskFragment"
+        android:id="@+id/ArticleInfoFragment"
+        android:name="com.ahmedfathy.articles.ui.addedittask.ArticleInfoFragment"
         android:label="{title}"
-        tools:layout="@layout/fragment_add_edit_task">
+        tools:layout="@layout/fragment_article_info">
         <argument
             android:name="title"
             app:argType="string" />
+        <argument
+            android:name="article_info"
+            app:argType="com.ahmedfathy.articles.data.ArticleEntity"
+            app:nullable="true" />
     </fragment>
     <dialog
-        android:id="@+id/deleteAllCompletedDialogFragment"
-        android:name="com.ahmedfathy.articles.ui.deleteallcompleted.DeleteAllCompletedDialogFragment"
-        android:label="DeleteAllCompletedDialogFragment" />
-    <action
-        android:id="@+id/action_global_deleteAllCompletedDialogFragment"
-        app:destination="@id/deleteAllCompletedDialogFragment" />
+        android:id="@+id/ConfirmationFragment"
+        android:name="com.ahmedfathy.articles.ui.confirmationMessage.ConfirmationMessageFragment"
+        android:label="Confirmation Message" />
 </navigation>
